@@ -3,13 +3,191 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     
     <title>MARVEL</title>
     <script type="module" crossorigin src="/MARVEL/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/MARVEL/assets/index-d1bd14fe.css">
+    <link rel="modulepreload" crossorigin href="/MARVEL/assets/vendor-9b5f6a01.js">
+    <link rel="stylesheet" href="/MARVEL/assets/index-a308e5f5.css">
   </head>
-  <body>
-    <header></header>
+  <body class="container">
+    <header class="header">
+  <a href="../index.html" class="header-logo-link">
+    <svg class="header-logo-svg" width="98" height="15">
+      <use href="../img/symbol-defs.svg#icon-marvel-logo" />
+    </svg>
+  </a>
+  <form type="submit" class="header-form-container">
+    <input type="text" placeholder="search" class="header-input" />
+    <button class="header-search-button">
+      <svg class="header-search-svg" width="16" height="16">
+        <use href="../img/symbol-defs.svg#icon-search" />
+      </svg>
+    </button>
+  </form>
+</header>
+
+    <div class="hero-container">
+  <div class="hero-text-wrap">
+    <p class="hero-description">Web-based platform</p>
+    <h1 class="hero-title">Marvelous Adventures</h1>
+    <p class="hero-paragraph">
+      is a web-based platform that provides an immersive experience for users to
+      explore and discover a vast collection of Marvel characters and comics.
+      Start exploring the Marvelous Adventures now by visiting our Characters
+      and Comics sections and discover your new favorites today.
+    </p>
+    <a href="" class="hero-link">All comics</a>
+  </div>
+  <div class="heros-wrap">
+    <div class="black-panther-angry">
+      <div class="circles-wrap">
+        <div class="circle width169"></div>
+        <div class="circle width195"></div>
+        <div class="circle width207"></div>
+        <div class="circle width295"></div>
+        <div class="circle width307"></div>
+        <div class="circle width339"></div>
+        <div class="circle width351"></div>
+        <div class="circle width409"></div>
+        <div class="circle width427"></div>
+      </div>
+      <picture>
+        <source
+          media="(max-width:767px)"
+          srcset="
+            ../img/black-panther-mob-1x-min.png 1x,
+            ../img/black-panther-mob-2x-min.png 2x
+          "
+        />
+        <source
+          media="(max-width:1439px)"
+          srcset="
+            ../img/black-panther-tab-1x-min.png 1x,
+            ../img/black-panther-tab-2x-min.png 2x
+          "
+        />
+        <source
+          media="(min-width:1440px)"
+          srcset="
+            ../img/black-panther-desc-1x-min.png 1x,
+            ../img/black-panther-desc-2x-min.png 2x
+          "
+        />
+        <img
+          class="black-panther-image-1"
+          srcset="
+            ../img/black-panther-mob-1x-min.png 1x,
+            ../img/black-panther-mob-2x-min.png 2x
+          "
+          src="../img/black-panther-mob-1x-min.png"
+          alt="black panther"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+    <div class="hero-wrapper">
+      <div class="black-panther-still">
+        <picture>
+          <source
+            media="(max-width:768px)"
+            srcset="
+              ../img/black-panther-mob-still-1x-min.png 1x,
+              ../img/black-panther-mob-still-2x-min.png 2x
+            "
+          />
+          <source
+            media="(max-width:1440px)"
+            srcset="
+              ../img/black-panther-tab-still-1x-min.png 1x,
+              ../img/black-panther-tab-still-2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width:1440px)"
+            srcset="
+              ../img/black-panther-desc-still-1x-min.png 1x,
+              ../img/black-panther-desc-still-2x-min.png 2x
+            "
+          />
+          <img
+            class="black-panther-image"
+            srcset="
+              ../img/black-panther-mob-still-1x-min.png 1x,
+              ../img/black-panther-mob-still-2x-min.png 2x
+            "
+            src="../img/black-panther-mob-still-1x-min.png"
+            alt="black panther"
+            loading="lazy"
+          />
+        </picture>
+        <div class="black-panther-text-wrap">
+          <p class="black-panther-text">Black Panther</p>
+        </div>
+        <div class="lines-wrap">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="hero-character-description-wrap">
+        <div class="hero-light-spot"></div>
+        <svg
+          class="hero-line"
+          viewBox="0 0 190 6"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5 2.5L0 0.113249V5.88675L5 3.5V2.5ZM185 3.5L190 5.88675V0.113249L185 2.5V3.5ZM4.5 3.5H185.5V2.5H4.5V3.5Z"
+            fill="#FAFAFA"
+            fill-opacity="0.15"
+          />
+        </svg>
+        <div class="hero-character-description">
+          <h3 class="hero-character-description-title">Characters</h3>
+          <p class="hero-character-description-text">
+            T’Challa is the king of the secretive and highly advanced African
+            nation of Wakanda - as well as the powerful warrior known as the
+            Black Panther.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="last-comics-wrap">
+  <h2 class="last-comics-title">Last Comics</h2>
+  <ul class="last-comics-list">
+    <!-- <li class="last-comics-item">
+      <img
+        class="last-comics-item-photo"
+        src="../img/cover-example.png"
+        alt="cover-example"
+        width="323"
+        height="374"
+      />
+      <h3 class="last-comics-item-title">Immoral X-Men (2023)</h3>
+      <p class="last-comics-item-author">Kieron Gillen</p>
+    </li> -->
+  </ul>
+  <div class="last-comics-pagination">
+    <button type="button" class="last-comics-pagination-previous">prev</button>
+    <button type="button" class="last-comics-pagination-next">next</button>
+  </div>
+</div>
 
     
   </body>
