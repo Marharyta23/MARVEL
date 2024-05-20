@@ -1,0 +1,55 @@
+.last-comics-wrap {
+  margin-top: 124px;
+}
+.last-comics-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #fafafa;
+  margin-bottom: 44px;
+}
+.last-comics-list {
+  position: relative;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.last-comics-item {
+  width: 323px;
+  height: 434px;
+}
+.last-comics-item-photo {
+  border-radius: 8px;
+  width: 323px;
+  height: 374px;
+}
+.last-comics-item-title {
+  margin-top: 14px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+}
+.last-comics-item-author {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: rgba(250, 250, 250, 0.5);
+}
+
+.last-comics-pagination {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.last-comics-pagination-previous {
+}
+.last-comics-pagination-next {
+}
