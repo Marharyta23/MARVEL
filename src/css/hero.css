@@ -34,7 +34,6 @@
   width: 112px;
   height: 36px;
   background-color: #34387f;
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
@@ -161,6 +160,11 @@
   position: relative;
   font-size: 0;
 }
+.hero-link:focus,
+.hero-link:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (min-width: 768px) {
   .hero-text-wrap {
     width: 538px;
