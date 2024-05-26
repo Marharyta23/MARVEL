@@ -2,6 +2,7 @@
 @import url('./hero.css');
 @import url('./lastComics.css');
 @import url('./footer.css');
+@import url('./comicsHero.css');
 
 :root {
   font-family: 'Poppins', sans-serif;
@@ -42,9 +43,6 @@ address {
 .container {
   padding: 20px;
   margin: 0;
-}
-
-body {
   overflow-x: hidden;
 }
 

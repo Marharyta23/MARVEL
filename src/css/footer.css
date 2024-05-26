@@ -41,7 +41,7 @@
   overflow-x: hidden;
   background: #34387f;
   position: absolute;
-  width: 105%;
+  width: calc(100% + 30px);
   z-index: -1;
   left: -20px;
 }
