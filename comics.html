@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="icon" type="image/png" href="/MARVEL/assets/marvel-logo-8981f39a.png" />
+    <title>MARVEL</title>
+    <script type="module" crossorigin src="/MARVEL/assets/vendor-303cc648.js"></script>
+    <script type="module" crossorigin src="/MARVEL/assets/main-f088797f.js"></script>
+    <link rel="stylesheet" href="/MARVEL/assets/vendor-c8237469.css">
+    <link rel="stylesheet" href="/MARVEL/assets/main-0aae7cfc.css">
+  </head>
+  <body class="container">
+    <header class="header">
+  <a href="../index.html" class="header-logo-link">
+    <svg class="header-logo-svg" width="98" height="15">
+      <use href="../img/symbol-defs.svg#icon-marvel-logo" />
+    </svg>
+  </a>
+  <form type="submit" class="header-form-container">
+    <input type="text" placeholder="search" class="header-input" />
+    <button class="header-search-button">
+      <svg class="header-search-svg" width="16" height="16">
+        <use href="../img/symbol-defs.svg#icon-search" />
+      </svg>
+    </button>
+  </form>
+</header>
+
+    <div class="comics-hero-wrap">
+  <h3 class="comics-hero-subtitle">Web-based platform</h3>
+  <h1 class="comics-hero-title">Comics</h1>
+  <p class="comics-hero-text">
+    Comics is a medium used to express ideas with images, often combined with
+    text or other visual information.
+  </p>
+  <a href="../index.html" class="comics-hero-link">back home</a>
+  <div class="marvel-background">
+    <picture>
+      <source
+        media="(max-width:767px)"
+        srcset="../img/avengers-marvel.png 1x, ../img/avengers-marvel-2x.png 2x"
+      />
+      <source
+        media="(max-width:1439px)"
+        srcset="
+          ../img/avengers-marvel-tab.png    1x,
+          ../img/avengers-marvel-tab-2x.png 2x
+        "
+      />
+      <source
+        media="(min-width:1440px)"
+        srcset="
+          ../img/avengers-marvel-desc.png    1x,
+          ../img/avengers-marvel-desc-2x.png 2x
+        "
+      />
+      <img
+        srcset="../img/avengers-marvel.png 1x, ../img/avengers-marvel-2x.png 2x"
+        src="../img/avengers-marvel.png"
+        alt="comics-hero-background-image"
+        class="comics-hero-background-image"
+        loading="lazy"
+      />
+    </picture>
+  </div>
+</div>
+
+    <div>
+  <form>
+    <label for="comicsSearch">Title Starts With</label>
+    <input type="text" name="" id="comicsSearch" />
+    <button type="submit">
+      <svg class="header-search-svg" width="16" height="16">
+        <use href="../img/symbol-defs.svg#icon-search" />
+      </svg>
+    </button>
+    <label for="format">Title Starts With</label>
+    <select name="format" id="format">
+      <option value="comic">Comic</option>
+      <option value="magazine">Magazine</option>
+      <option value="trade paperback">Trade paperback</option>
+      <option value="hardcover">Hardcover</option>
+      <option value="digest">Digest</option>
+      <option value="graphic novel">Graphic novel</option>
+      <option value="digital comic">Digital comic</option>
+      <option value="infinite comic">Infinite comic</option>
+    </select>
+    <label for="orderBy">Order by</label>
+    <select name="orderedBy" id="orderBy">
+      <option value="-title">Title</option>
+      <option value="-onsaleDate">On Sale Date</option>
+      <option value="-issueNumber">Issue Number</option>
+      <option value="-modified">Modified</option>
+      <option value="-focDate">Foc Date</option>
+    </select>
+    <label for="startYear">Start Year</label>
+    <input type="text" id="startYear" />
+  </form>
+</div>
+
+    <footer class="footer">
+  <div class="footer-wrap-all">
+    <div class="footer-wrap">
+      <a href="../index.html" class="footer-logo-link">
+        <svg class="footer-logo-svg" width="98" height="15">
+          <use href="../img/symbol-defs.svg#icon-marvel-logo" />
+        </svg>
+      </a>
+      <a href="../comics.html" class="footer-comics-link">Comics</a>
+    </div>
+    <nav class="footer-nav">
+      <a href="https://www.facebook.com/Marvel/" class="footer-nav-item">
+        <svg class="footer-facebook" width="8" height="15">
+          <use href="../img/symbol-defs.svg#icon-facebook" />
+        </svg>
+      </a>
+      <a href="https://x.com/marvel" class="footer-nav-item">
+        <svg class="footer-instagram" width="14" height="14">
+          <use href="../img/symbol-defs.svg#icon-instagram" />
+        </svg>
+      </a>
+      <a href="https://www.instagram.com/marvel/" class="footer-nav-item">
+        <svg class="footer-twitter" width="14" height="14">
+          <use href="../img/symbol-defs.svg#icon-twitter" />
+        </svg>
+      </a>
+    </nav>
+  </div>
+  <div class="footer-privacy-block">
+    <a href="" class="footer-privacy-text"
+      >Privacy Policy Public Offering Agreement</a
+    >
+  </div>
+</footer>
+
+    
+  </body>
+</html>
